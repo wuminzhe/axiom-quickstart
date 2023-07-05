@@ -1,5 +1,9 @@
 # Axiom Quickstart
 
+## Introduction
+
+This starter repo is a guide to get you started making your first [Axiom](https://axiom.xyz) query as quickly as possible using the [Axiom SDK](https://github.com/axiom-crypto/axiom-sdk).  To learn more about Axiom, check out the developer docs at [docs.axiom.xyz](https://docs.axiom.xyz) or join our developer [Telegram](https://t.me/axiom_discuss).
+
 ## Setup
 
 Install `npm` or `yarn` or `pnpm`:
@@ -29,7 +33,7 @@ You can export your Goerli private key in Metamask by going to "Account Details"
 
 ## Run
 
-To run the script in [`index.ts`](./src/index.ts) that sends a query to `AxiomV1Query`, run
+To run the script in [`index.ts`](./src/index.ts) that sends a query to `AxiomV1QueryMock` on Goerli testnet, run
 
 ```bash
 pnpm start
@@ -37,7 +41,7 @@ pnpm start
 
 ## Validate Witness
 
-For an example of how to read your query results from AxiomV1Query after they are fulfilled, see [`getWitness.ts`](./src/getWitness.ts).
+For an example of how to read your query results from `AxiomV1QueryMock` after they are fulfilled, see [`getWitness.ts`](./src/getWitness.ts).
 This can be used to generate calldata for apps using Axiom.
 
 Run the script with
