@@ -36,3 +36,14 @@ pnpm start
 ```
 
 ## Validate Witness
+
+For an example of how to read your query results from AxiomV1Query after they are fulfilled, see [`getWitness.ts`](./src/getWitness.ts).
+This can be used to generate calldata for apps using Axiom.
+
+Run the script with
+
+```bash
+pnpm getWitness
+```
+
+This particular script was used to generated the [test data](https://github.com/axiom-crypto/axiom-apps/blob/main/uniswap-v3-twap/test/data/input.json) for the [Uniswap V3 TWAP demo app](https://demo.axiom.xyz/token-price-v3) smart contract.
